@@ -6,15 +6,15 @@ def loop_iterator(number_of_times)
   break if number_of_times == 7
 end
 
- phrase = "Welcome to Flatiron School's Web Development Course!"
  number_of_times = 0 
 def times_iterator(number_of_times)
+  phrase = "Welcome to Flatiron School's Web Development Course!"
   loop do
     puts phrase 7.times do
  end
  
  
- 
+ number_of_times = 0 
 def while_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   while number_of_times < 8
