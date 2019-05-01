@@ -29,10 +29,10 @@ def until_iterator(number_of_times)
   number_of_times += 1
 end
 
+number_of_times = 0 
 def for_iterator(number_of_times)
-  for count in for_iterator(1..7)
+  for number_of_times(1..7)
   puts phrase
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
 end
 
