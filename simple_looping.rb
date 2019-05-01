@@ -13,12 +13,13 @@ def times_iterator(number_of_times)
   loop do
     puts phrase 7.times do
  end
-
+ 
+ phrase = "Welcome to Flatiron School's Web Development Course!"
+ 
 def while_iterator(number_of_times)
-  while item < 8
+  while number_of_times < 8
   puts phrase
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  item += 1
+  number_of_times += 1
 end
 
 def until_iterator(number_of_times)
