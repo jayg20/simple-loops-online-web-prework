@@ -4,16 +4,15 @@
 def loop_iterator(number_of_times)
   for loop do
   puts phrase
-  break if phrase == 7
+  break if number_of_times == 7
 end
 
  phrase = "Welcome to Flatiron School's Web Development Course!"
  
 def times_iterator(number_of_times)
-  # code your solution here using the "times" keyword
- 
-  
-end
+  loop do
+    puts phrase 7.times do
+ end
 
 def while_iterator(number_of_times)
   # code your solution here using the "while" keyword
