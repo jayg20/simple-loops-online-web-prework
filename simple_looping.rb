@@ -30,7 +30,7 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-  for count in (1..7)
+  for count in for_iterator(1..7)
   puts phrase
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
